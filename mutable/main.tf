@@ -3,6 +3,6 @@ module "user" {
   COMPONENT = var.COMPONENT
   ENV = var.ENV
   instances = var.instances
-  APP_PORT = 8080
+  APP_PORT = 80
   LB_RULE_PRIORITY = 5
 }
